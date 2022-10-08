@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <>
       <Hero />
-      <HeroCard />
+      <HeroCard /> 
       <Aboutus />
       <Benefits />
       <DiscoverMarket />

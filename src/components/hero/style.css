@@ -1,0 +1,17 @@
+.hero {
+  background-color: #080e32;
+  height: 100vh;
+  width: 100%;
+  color: white;
+  display: flex;
+}
+.hero-content {
+  border: 1px solid pink;
+}
+.hero-banner {
+  border: 1px solid red;
+}
+.bannerImg {
+  width: 50%;
+  /* height: 50%; */
+}
