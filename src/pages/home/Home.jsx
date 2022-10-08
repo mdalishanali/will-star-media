@@ -3,7 +3,7 @@ import Benefits from "../../components/benefits/Benefits";
 import DiscoverMarket from "../../components/dicoverMarket/DiscoverMarket";
 import Feedback from "../../components/feedback/Feedback";
 import GetStarted from "../../components/getStarted/GetStarted";
-import Hero from "../../components/hero/hero";
+import Hero from "../../components/hero/Hero";
 import HeroCard from "../../components/heroCard/HeroCard";
 import OurBlog from "../../components/ourBlog/OurBlog";
 import WithUs from "../../components/withus/WithUs";
