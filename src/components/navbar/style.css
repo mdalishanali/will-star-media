@@ -1,4 +1,39 @@
 .navbar {
-  background-color: #080e32;
-  color: white;
+  background-color: var(--blackColor);
+  padding: 25px 20px !important;
+  position: fixed;
+    width: 100%;
+    z-index: 999;
+  
+}
+
+
+.navbar-nav{
+  align-items: center !important;
+}
+.navbar-brand img{
+  width: 80%;
+}
+.nav-item{
+  margin:0 15px;
+}
+.nav-link{
+  transition: var(--transition);
+    font-size: 17.5px;
+    font-weight: 700;
+    padding:  0 !important;
+    color: var(--whiteColor);
+}
+.letsTalk{
+  background-color: var(--mainColor);
+  border-radius: 30px;
+  padding: 0.5rem 1rem;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  color: var(--whiteColor);
 }

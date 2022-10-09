@@ -9,7 +9,7 @@ const Benefits = () => {
         People do not buy goods and services. They buy relations, stories, and
         magic
       </p>
-      <div className="row">
+      <div className="">
         <h4 class="skills-title">Quickly Builds Trust</h4>
       </div>
     </>
