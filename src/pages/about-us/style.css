@@ -1,3 +1,92 @@
-.about-us {
+.about-area {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.pb-100 {
+  padding-bottom: 100px;
+}
+.about-img {
+  text-align: center;
+}
+.about-content .text {
+  max-width: 600px;
+  padding-left: 20px;
+  margin: auto;
+}
+.about-content .sub-title {
+  display: block;
+  margin-bottom: 12px;
+  color: var(--mainColor);
+  text-transform: uppercase;
+  font-size: 15.5px;
+  font-weight: 700;
+}
+.about-content h2 {
+  margin-bottom: 0;
+  font-size: 42px;
+  font-weight: 800
+}
+.about-content p {
+  margin-top: 12px;
+  color: var(--optionalColor);
+  font-size: var(--fontSize);
+  margin-bottom: 15px;
+  line-height: 1.8;
+}
+.about-content .funfacts-list {
+  padding-left: 0;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+.about-content .funfacts-list li {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 33.333333%;
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.about-content .funfacts-list li .list {
+  position: relative;
+  margin-bottom: 20px;
+}
+.about-content .funfacts-list li .list i {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  color: var(--mainColor);
+  font-size: 40px;
+  line-height: 1;
+}
+.about-content .funfacts-list li .list h3 {
+  font-size: 46px;
+  line-height: 1;
+  margin-bottom: 5px;
+  /* padding-left: 50px; */
+  font-weight: 800;
+}
+.odometer.odometer-auto-theme, .odometer.odometer-theme-default {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  position: relative;
+}
+.about-content .funfacts-list li .list p {
+  display: block;
+  line-height: initial;
+  padding-right: 5px;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
 }

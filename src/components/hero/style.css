@@ -2,8 +2,8 @@
   background-color: #080e32;
   color: white;
   display: flex;
-
   padding: 95px 30px 0;
+  padding-bottom: 280px;
 }
 
 .banner-image .bannerImg {
@@ -87,3 +87,6 @@
   outline: 0 !important;
   cursor: pointer;
 }
+
+
+

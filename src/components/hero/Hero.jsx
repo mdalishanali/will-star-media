@@ -1,5 +1,6 @@
 import React from "react";
 import heroBanner from "../../assets/img/banner-img1.png";
+import shape1 from "../../assets/img/shape1.png";
 import "./style.css";
 const Hero = () => {
   return (
@@ -55,6 +56,8 @@ const Hero = () => {
             <img src={heroBanner} alt="heroBanner" className="bannerImg" />
           </div>
         </div>
+
+        
       </div>
     </div>
   );

@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import Service1 from "../../assets/img/Service1.png";
 import Service2 from "../../assets/img/Service2.png";
 import Service3 from "../../assets/img/Service3.png";
+
+
 import "./style.css";
 const HeroCard = () => {
   const cardData = [
@@ -30,20 +32,27 @@ const HeroCard = () => {
   ];
   return (
     <>
-      <div className="card-parent">
-        {cardData.map((item, index) => {
-          return (
-            <div className="card" key={index}>
-              <img src={item.img} alt="" />
-              <h3>{item.title}</h3>
-              <p>{item.description}</p>
-              <button>
-                <Link to={item.link}>Learn More</Link>
-              </button>
-            </div>
-          );
-        })}
-      </div>
+      <section className="boxes-area pb-70">
+        <div className="container ">
+          <div className="row">
+            {cardData.map((item, index) => {
+              return (
+                <div className="col-lg-4 col-md-6 col-sm-6">
+                  <div className="single-boxes-box" key={index}>
+                    <div>
+                      <img className="icon" src={item.img} alt="" />
+                    </div>
+                    <h3>{item.title}</h3>
+                    <p>{item.description}</p>
+                      <Link className="learn-more-btn" to={item.link}> Learn More</Link>
+                     
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
     </>
   );
 };
