@@ -25,7 +25,7 @@
 .about-content h2 {
   margin-bottom: 0;
   font-size: 42px;
-  font-weight: 800
+  font-weight: 800;
 }
 .about-content p {
   margin-top: 12px;
@@ -74,7 +74,8 @@
   /* padding-left: 50px; */
   font-weight: 800;
 }
-.odometer.odometer-auto-theme, .odometer.odometer-theme-default {
+.odometer.odometer-auto-theme,
+.odometer.odometer-theme-default {
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
@@ -89,4 +90,21 @@
   margin: 0;
   font-size: 20px;
   font-weight: 600;
+}
+.about-content .default-btn {
+  margin-top: 10px;
+  text-align: center;
+  display: inline-block;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  border-radius: 5px;
+  border: none;
+  padding: 10px 30px;
+  position: relative;
+  z-index: 1;
+  color: var(--whiteColor);
+  background-color: var(--mainColor);
+  font-size: 17px;
+  font-weight: 700;
+  text-decoration: none;
 }
