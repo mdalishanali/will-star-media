@@ -26,7 +26,7 @@ const Footer = () => {
                   Read More.
                 </a>
               </p>
-              <ul className="social-link">
+              {/* <ul className="social-link">
                 <li>
                   <a
                     href="#"
@@ -63,7 +63,7 @@ const Footer = () => {
                     <i className="bx bxl-linkedin" />
                   </a>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
           <div className="col-lg-2 col-md-6 col-sm-6">

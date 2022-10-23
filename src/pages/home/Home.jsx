@@ -17,12 +17,12 @@ const Home = () => {
       <HeroCard /> 
       <Aboutus />
       <Benefits />
-      <DiscoverMarket />
+      {/* <DiscoverMarket />
       <Feedback />
       <CaseStudy />
       <WithUs />
       <GetStarted />
-      <OurBlog />
+      <OurBlog /> */}
     </>
   );
 };
